@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
 }
 #main{
     background: red;
@@ -11,4 +16,12 @@
 }
 #third{
     background: orange;
+}
+
+.box{
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+.box h1{
+    text-align: center;
 }
